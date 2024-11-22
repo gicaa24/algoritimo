@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <title>Para onde viajar</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>money</p>
+            <button class="btn-proximo" data-proximo="1">caro</button>
+            <button class="btn-proximo" data-proximo="2">barato</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>barato</p>
+            <button class="btn-proximo" data-proximo="3">litoral</button>
+            <button class="btn-proximo" data-proximo="4">interior</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>litoral</p>
+            <button class="btn-proximo" data-proximo="5">Maragogi</button>
+            <button class="btn-proximo" data-proximo="6">Canoa Quebrada</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>caro</p>
+            <button class="btn-proximo" data-proximo="3">litoral</button>
+            <button class="btn-proximo" data-proximo="4">interior</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>litoral</p>
+            <button class="btn-proximo" data-proximo="5">Porto de Galinhas</button>
+            <button class="btn-proximo" data-proximo="6">Rio de Janeiro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
